@@ -1,0 +1,48 @@
+/* all fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* common styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* images slider section */
+.btn {
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    margin-top: -20px;
+}
+
+/* categories section  */
+.caho:hover img {
+    transform: scale(1.2);
+    transition: 1s all ease-in-out;
+}
+
+.caho:hover h2 {
+    margin-left: 70px;
+    transition: 2s all ease-in-out;
+}
+
+/* shoes section */
+
+.shho {
+    box-shadow: 5px 5px 10px 3px #00000018;
+}
+
+.shho:hover {
+    border-radius: 20px 20px 80px 20px;
+    transition: 0.7s all ease-out;
+}
+
+.shho:hover img {
+    transform: rotate(-10deg);
+    transition: 2s all ease-out;
+}
+
+/* subscribe */
+.subsc {
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    padding: 24px 40px;
+}
